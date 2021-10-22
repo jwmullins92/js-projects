@@ -62,4 +62,12 @@ const vendingMachine = (products, payment, productId) => {
 }
 
 
-console.log(vendingMachine(snacks, 500, 1));
+// console.log(vendingMachine(snacks, 500, 1));
+
+let principle = 10000;
+
+for (let i = 0; i < 261; i++) {
+    principle += principle * .01
+}
+
+console.log(principle)
